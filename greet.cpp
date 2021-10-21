@@ -6,8 +6,16 @@
 using namespace std;
 
 int main(){
-   string name;
+    string name;
     cout<<"enter your name"<<endl;
     cin>> name;
-    cout<<"hello, "<< name<<endl;
+    if(name == "alice"){
+        cout<<"hello,alice "<< endl;
+    }
+    else if(name=="bob"){
+        cout<<"hello,bob"<< endl;
+    }
+    else{
+        cout<<"Sorry wrong input"<< endl;
+    }
 }
